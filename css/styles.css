@@ -1,0 +1,237 @@
+:root{
+
+        --color-iris: #4d5ae5;
+        --color-ocean: #404bbf;
+        --color-navy-blue: #2e2f42;
+        --color-green: #31d0aa;
+        --color-slate: #434455;
+        --color-light-slate: #8e8f99;        
+        --color-cornflower: #e7e9fc;
+        --color-cloud: #f4f4fd;        
+        --color-navy-blue-modal: #2e2f42;
+        --color-grey: #2e2f42;
+        --color-white: #ffffff;
+        --color-dairy: #fcfcfc;
+}
+body {
+    background-color: var(--color-white);
+    color:var(--color-slate);
+    font-family: Roboto, sans-serif;    
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/**
+  |============================
+  | Buttons
+  |============================
+*/
+.button {
+    color: var(--color-white);
+    background-color: var(--color-iris);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button.primary {
+    color: var(--color-white);
+    background-color: var(--color-iris);
+}
+
+.button.secondary {
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--color-ocean);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--color-white);
+    background-color: var(--color-ocean);
+}
+
+/**
+  |============================
+  | Logo
+  |============================
+*/
+.logo {
+    color: var(--color-iris);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+/**
+  |============================
+  | site nav
+  |============================
+*/
+
+
+
+.header-brand {
+    color: var(--color-navy-blue);
+}
+
+.header-brand:hover,
+.header-brand:focus {
+    color: var(--color-iris);
+}
+
+.site-menu .menu {
+    color:var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.02em;     
+}
+.site-menu .menu:hover,
+.site-menu .menu:focus
+{
+    color:var(--color-ocean);
+}
+.adress{
+    font-style: normal;
+}
+.adress-list .item{
+    color: var(--color-slate);
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.adress-list .item:hover,
+.adress-list .item:focus
+{
+    color:var(--color-ocean);
+}
+/**
+  |============================
+  | main section
+  |============================
+**/
+.hero{
+    background-color:var(--color-navy-blue);
+}
+
+/**
+  |============================
+  | section hero
+  |============================
+*/
+.hero-title{
+    color:var(--color-white);
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;      
+    text-align: center;
+}
+
+.features-title,
+.works-title,
+.team-title {
+    color:var(--color-navy-blue);
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.section-team{
+    background-color: var(--color-cloud);
+}
+/**
+  |============================
+  | Features, Team sections
+  |============================
+*/
+.features-subtitle,
+.team-subtitle {
+    color: var(--color-navy-blue);
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list .item{
+    background-color: var(--color-white);
+}
+.features-description,
+.team-description{
+
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer{
+    background-color: var(--color-navy-blue);
+    color: var(--color-cloud);
+}
+.footer-brand{
+    color: var(--color-cloud);
+}
+
+.footer-brand:hover,
+.footer-brand:focus{
+    color: var(--color-iris);
+}
+.footer-description {
+    color: var(--color-cloud);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+.portfolio-title{
+    color: var(--color-navy-blue);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;           
+      
+}
+
+.portfolio-description{
+    color: var(--color-slate);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
